@@ -6,7 +6,7 @@ import org.openqa.selenium.support.How;
 
 import java.util.List;
 
-public class OrderPage { //Страница оформления заказа
+public class OrderPage { //Страница оформления нового заказа
     private static final By NAME_INPUT_FIELD = By.xpath(".//input[@placeholder='* Имя']");
     private static final By LASTNAME_INPUT_FIELD = By.xpath(".//input[@placeholder='* Фамилия']");
     private static final By ADDRESS_INPUT_FIELD = By.xpath(".//input[@placeholder='* Адрес: куда привезти заказ']");
