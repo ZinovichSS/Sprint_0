@@ -4,22 +4,13 @@ import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.JavascriptExecutor;
 import org.openqa.selenium.WebElement;
-import org.openqa.selenium.support.ui.ExpectedConditions;
-import org.openqa.selenium.support.ui.WebDriverWait;
 
-import java.time.Duration;
-
-public class MainPage {
+public class MainPage { //Главная страница сайта
 
     private static final String PAGE_URL = "https://qa-scooter.praktikum-services.ru/";
-
-    //private static String index;
-
     private static final By BUTTON_TO_ORDER_IN_HEAD = By.xpath(".//button[text()='Заказать']");
     private static final By BUTTON_TO_ORDER_IN_PAGE = By.xpath(".//button[text()='Заказать' and @class='Button_Button__ra12g Button_Middle__1CSJM']");
     private static final By QUESTIONS = By.xpath(".//div[text()='Вопросы о важном']");
-//    private static By question = By.xpath(".//div[@id='accordion__heading-" + index +"']");
-//    private static By answer = By.xpath(".//div[@id='accordion__panel-" + index + "']/p");
 
 
     private final WebDriver driver;
@@ -62,8 +53,6 @@ public class MainPage {
             }
         }
     }
-
-
 
 }
 
